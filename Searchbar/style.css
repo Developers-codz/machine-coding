@@ -1,0 +1,32 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+.search-wrapper {
+    text-align: center;
+
+
+}
+.header {
+    font-size: 30px;
+    padding: 20px 0;
+}
+
+.inputbox{
+    font-size: 20px;
+    padding:10px;
+    width: 30rem;
+}
+.card-wrapper {
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    margin: 20px;
+
+}
+.card {
+    border: 1px solid black;
+    margin: 10px;
+    padding: 10px;
+    font-size: 20px;
+}

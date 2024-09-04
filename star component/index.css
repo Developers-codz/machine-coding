@@ -1,0 +1,21 @@
+.wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    flex-direction: column;
+}
+
+.starwrapper{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   
+}
+.star{
+    width:40px;
+    height:40px;
+}
+.star:hover{
+    cursor: pointer;
+}
